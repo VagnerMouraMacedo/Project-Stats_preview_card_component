@@ -1,0 +1,133 @@
+/* Box sizing rules */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Remove default margin */
+body,
+h1, h2, h3, h4, h5, h6,
+p,
+blockquote,
+pre,
+dl,
+dd,
+ol,
+ul,
+figure,
+fieldset,
+legend,
+textarea,
+th,
+td {
+  margin: 0;
+}
+
+/* Remove default padding */
+h1, h2, h3, h4, h5, h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+code,
+kbd,
+samp,
+kbd,
+dl,
+dd,
+ol,
+ul,
+figure,
+fieldset,
+textarea,
+th,
+td {
+  padding: 0;
+}
+
+/* Set core body defaults */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+/* Remove list styles on ul, ol elements */
+ol, ul {
+  list-style: none;
+}
+
+/* Remove hyperlinks outline */
+a {
+  text-decoration: none;
+}
+
+/* Remove table border */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Remove border on images inside links */
+img {
+  border-style: none;
+}
+
+/* Reset form element */
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* Correct button and input padding */
+button, input {
+  overflow: visible;
+}
+
+/* Normalize button, input, and select behavior */
+button, select {
+  text-transform: none;
+}
+
+/* Remove inheritance on form elements */
+button, select {
+  background-color: transparent;
+  border: none;
+}
+
+/* Reset text input border */
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="email"],
+input[type="tel"],
+input[type="url"],
+input[type="search"],
+textarea {
+  border: 1px solid #ccc;
+}
+
+/* Reset scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
